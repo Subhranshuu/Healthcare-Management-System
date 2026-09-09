@@ -10,7 +10,7 @@ A code repository for a decentralized healthcare management system built using R
 - **Authorize Healthcare Providers:** The contract owner can authorize other healthcare providers to access patient records securely.
 
 ## Technologies Used
-
+...........
 - **Frontend:** React.js
 - **Blockchain:** Ethereum (using the [ethers.js](https://docs.ethers.io/) library)
 - **Smart Contract:** Written in Solidity
