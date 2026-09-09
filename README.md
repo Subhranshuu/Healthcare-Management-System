@@ -49,7 +49,7 @@ Authorize Providers: Only the contract owner can authorize other healthcare prov
 Contract Deployment
 Ensure your smart contract is deployed on a public Ethereum network (mainnet/testnet) before using this application. You can deploy the smart contract using tools like Remix or Truffle.
 
-Once deployed, update the contract address in the contractAddress variable inside the Healthcare.js file.
+Once deployed, update the contract address in the contractAddress variable inside the Healthcare.js file...
 
 Contributing
 Feel free to fork the repository, create a new branch, and submit a pull request for any bug fixes or improvements.
