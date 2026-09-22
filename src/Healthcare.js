@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 
+
 const Healthcare = () => {
     const [provider, setProvider] = useState(null);
     const [signer, setSigner] = useState(null);
@@ -20,6 +21,7 @@ const Healthcare = () => {
             "stateMutability": "nonpayable",
             "type": "constructor"
         },
+        
         {
             "inputs": [
                 {
@@ -239,6 +241,7 @@ const Healthcare = () => {
                 </button>
             </div>
 
+                        
             <div className="records-section">
                 <h2>Patient Records</h2>
                 {patientRecords.map((record, index) => (
